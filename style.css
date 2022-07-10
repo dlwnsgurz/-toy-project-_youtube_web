@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    margin:0%;
+}
+.header{
+    background-color : black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 8px 10px;
+}
+.header .lefttool i{
+    color : red
+}
+.header a{
+    font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Oswald', sans-serif;
+    color : white;
+    text-decoration: none;
+}
+.header .righttool{
+    color : white;
+}
+.videozone{
+    position : sticky;
+    top : 0px;
+    
+}
+.title a{
+    padding-left : 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color : blue;
+    text-decoration: none;
+    font-size : 10px;
+}
+.title .videotitle{
+    padding : 3px 10px;
+    padding-right : 30px;
+    display : flex;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.title .duration{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color : gray;
+    font-size : 10px;
+    padding-left : 10px;
+}
+.icons{
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left : 5px;
+}
+
+.icons li{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-align : center;
+}
+
+.subscribe {
+    display : flex;
+    justify-content: space-between;
+    padding : 5px 10px;
+}
+.subscribe .leftprofile
+{
+    font-size: 20px;
+}
+.subbtn{
+    color : red;
+
+}
+
+.moreinfo{
+    position:absolute;
+    right:3px;
+    top:217px;
+}
+.upnext{
+    display:flex;
+    padding-left:10px;
+    font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Oswald', sans-serif;
+    color : grey;
+    text-decoration: none;
+}
+.othercontents{
+    justify-content: flex-start;
+    list-style: none;
+    padding-left : 10px;
+}
+
+.othercontents li{
+    display : flex;
+    padding-bottom: 25px;
+}
+
+.text1, .text2, .text3,.text4,.text5{
+    justify-content: space-between;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size:14px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.text1creater,.text2creater,.text3creater,.text4creater,.text5creater{
+    display : flex;
+    font-size : 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.line{
+    color : grey;
+}
+@media screen and (min-width : 1024px){
+
+}
